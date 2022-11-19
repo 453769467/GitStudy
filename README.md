@@ -30,4 +30,5 @@ git log -p      // 显示文件的改动
 ### git diff -- 查看更改前后的差别
 ```
 git diff    // 查看工作树和暂存区的差别，还没有 git add 修改
+git diff HEAD    // 查看工作树和最新提交的差别，git add 之后，git commit之前
 ```
