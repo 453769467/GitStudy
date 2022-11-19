@@ -13,3 +13,8 @@ git config --global user.email "aoxiaojian@gmail.com"   //配置当前单个仓�
 
 git config --global color.ui auto   // 提高命令输出的可读性
 ```
+## Git 基本操作
+### git init -- 初始化仓库
+```
+git init    // 在需要初始化为仓库的目录里执行
+```
