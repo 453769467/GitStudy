@@ -49,5 +49,9 @@ git branch -d branch-name       // 正常删除已经merge的分支
 git branch -D branch-name       // 强制删除分支， 不管是否完成merge
 ```
 
-这是在feature-a分支上进行的操作
-这是在feature-b分支上进行的操作
+### git reset -- 回溯历史版本
+```
+git reset --hard hash-code      // 把版本回溯到hash-code对应的时间点
+
+git reflog      // 查看当前仓库的操作日志，而git log只能显示当前状态为终点的日志
+```
