@@ -25,6 +25,8 @@ git log     // 正常显示提交日志
 git log --pretty=short      // 只显示提交信息的第一行
 git log README.md       // 只显示指定文件或者目录相关的日志
 git log -p      // 显示文件的改动
+
+git log --graph     // 以图形的方式输出提交日志，尤其在查看分支操作方面更有用
 ```
 
 ### git diff -- 查看更改前后的差别
