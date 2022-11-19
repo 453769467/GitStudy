@@ -18,3 +18,11 @@ git config --global color.ui auto   // 提高命令输出的可读性
 ```
 git init    // 在需要初始化为仓库的目录里执行
 ```
+
+### git log -- 查看提交日志
+```
+git log     // 正常显示提交日志
+git log --pretty=short      // 只显示提交信息的第一行
+git log README.md       // 只显示指定文件或者目录相关的日志
+git log -p      // 显示文件的改动
+```
