@@ -48,3 +48,5 @@ git merge --no-ff branch-name  // 把branch-name分支的更改合并到当前�
 git branch -d branch-name       // 正常删除已经merge的分支
 git branch -D branch-name       // 强制删除分支， 不管是否完成merge
 ```
+
+这是在feature-b分支上进行的操作
