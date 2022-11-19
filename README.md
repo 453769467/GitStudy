@@ -40,4 +40,6 @@ git checkout -b branch-name     // 创建，切换分支
 git branch branch-name      // 切换到branch-name分支
 git checkout branch-name    // 切换到branch-name分支
 git checkout -              // 切换到之前的一个分支
+
+git merge --no-ff branch-b  // 把branch-b分支的更改合并到当前分支上
 ```
