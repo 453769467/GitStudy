@@ -26,3 +26,8 @@ git log --pretty=short      // 只显示提交信息的第一行
 git log README.md       // 只显示指定文件或者目录相关的日志
 git log -p      // 显示文件的改动
 ```
+
+### git diff -- 查看更改前后的差别
+```
+git diff    // 查看工作树和暂存区的差别，还没有 git add 修改
+```
