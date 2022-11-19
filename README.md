@@ -50,3 +50,4 @@ git branch -D branch-name       // 强制删除分支， 不管是否完成merge
 ```
 
 这是在feature-a分支上进行的操作
+这是在feature-b分支上进行的操作
