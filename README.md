@@ -10,4 +10,6 @@ Or
 
 git config --global user.name "Sky Ao"  // 配置当前单个仓库时把 --global去掉即可
 git config --global user.email "aoxiaojian@gmail.com"   //配置当前单个仓库时把 --global去掉即可
+
+git config --global color.ui auto   // 提高命令输出的可读性
 ```
