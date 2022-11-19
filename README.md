@@ -58,5 +58,5 @@ git reflog      // 查看当前仓库的操作日志，而git log只能显示当
 
 ### git commit --amend -- 修改提交的信息
 ```
-git commit --amend      // 把当前的commit合并到上一次的commit里
+git commit --amend      // 把当前的commit合并到上一次的commit里 
 ```
