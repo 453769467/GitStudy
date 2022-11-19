@@ -36,7 +36,8 @@ git diff HEAD    // 查看工作树和最新提交的差别，git add 之后，g
 ### git branch -- 分支操作
 ```
 git branch      // 查看所以分支，以及当前正在工作的分区
+git checkout -b branch-name     // 创建，切换分支
 git branch branch-name      // 切换到branch-name分支
 git checkout branch-name    // 切换到branch-name分支
-git checkout -b branch-name     // 创建，切换分支
+git checkout -              // 切换到之前的一个分支
 ```
