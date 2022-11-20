@@ -6,13 +6,14 @@
  - Git 完整命令手册 -> http://git-scm.com/docs
 
 ## Git配置
-- --global 针对当前用户的所有项目
-- --system 针对当前系统的所有项目
-- 没有以上两个参数，只针对当前项目
+- --global 针对当前用户的所有仓库
+- --system 针对当前系统的所有仓库
+- 没有以上两个参数，只针对当前仓库
 ```
 git config --list   // 查看当前的配置，配置内容存放在文件 ~/.gitconfig 中
 
 git config --global --edit  //打开config文件进行编辑
+git config --global -e  //打开config文件进行编辑
 
 Or
 
