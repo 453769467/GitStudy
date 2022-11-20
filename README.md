@@ -43,6 +43,10 @@ git log README.md       // 只显示指定文件或者目录相关的日志
 git log -p      // 显示文件的改动
 
 git log --graph     // 以图形的方式输出提交日志，尤其在查看分支操作方面更有用
+
+git log --author=Linus      // 只查找指定用户的提交日志
+git log --reverse       // 逆向显示所有日志
+git log --before={3.weeks.ago} --after={2010-04-18}     // 指定日期, 可以执行几个选项：--since 和 --before，但是你也可以用 --until 和 --after
 ```
 
 ### git diff -- 查看更改前后的差别
@@ -80,4 +84,11 @@ git reflog      // 查看当前仓库的操作日志，而git log只能显示当
 git commit --amend      // 把当前的commit合并到上一次的commit里 
 ```
 
-这是一个reset testing
+## Git 标签
+如果项目达到一个重要的阶段，并希望永远记住那个特别的提交快照，你可以使用 git tag 给它打上标签。
+```
+git tag -a v1.0     // 给最新一次提交打上（HEAD）"v1.0"的标签
+git log --decorate  // 可以看到标签
+
+git tag     // 查看所有标签
+```
