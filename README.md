@@ -27,6 +27,7 @@ git config --global merge.tool vimdiff  // 设置Git差异分析工具
 
 ```
 ## Git 基本操作
+![基本操作](https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg "基本操作")
 ### git init -- 初始化仓库
 ```
 git init    // 在需要初始化为仓库的目录里执行
