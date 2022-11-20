@@ -27,7 +27,9 @@ git config --global merge.tool vimdiff  // 设置Git差异分析工具
 
 ```
 ## Git 基本操作
+
 ![基本操作](https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg "基本操作")
+
 ### git init -- 初始化仓库
 ```
 git init    // 在需要初始化为仓库的目录里执行
@@ -50,10 +52,13 @@ git diff HEAD    // 查看工作树和最新提交的差别，git add 之后，g
 ```
 
 ### git branch -- 分支操作
+
+![Git 分支管理](https://static.runoob.com/images/svg/git-brance.svg "Git 分支管理")
+
 ```
 git branch      // 查看所以分支，以及当前正在工作的分区
-git checkout -b branch-name     // 创建，切换分支
-git branch branch-name      // 切换到branch-name分支
+git checkout -b branch-name     // 创建分支，并立即切换到新分支上
+git branch branch-name      // 切换到branch-name分支, 如果分支不存在，就重新创建一个新分支
 git checkout branch-name    // 切换到branch-name分支
 git checkout -              // 切换到之前的一个分支
 
